@@ -1,0 +1,26 @@
+
+# Separate everyone's diaries/journals 
+# Hint: contents may be useful
+# Tally how many entries per month
+# each character has
+# Display the counts in an efficient
+# and readable manner 
+file=open('text_stoker.txt','r')
+
+dracula=file.readlines()
+print(dracula[357])
+#for line in dracula:
+ #       print(line)
+
+
+
+
+
+
+# Create a function that randomly
+# selects ten sentences from the text,
+# puts them together into a paragraph
+# that is easily legible 
+
+
+

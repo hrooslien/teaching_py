@@ -1,0 +1,14 @@
+# This program should generate a 
+# dictionary that contains (x,x*x)
+# such that x is a number between 
+# 1 and n (include both). The program
+# should print the dictionary. 
+# If the number 4 is entered into the
+# program, then the output should be
+# {1:1,2:4,3:9,4:16}
+
+n=int(input("Please enter an integer"))
+d=[]
+for i in range(1,n):
+    d.append(i)
+print(d)

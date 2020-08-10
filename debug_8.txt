@@ -1,0 +1,11 @@
+# Write a Python program to check 
+# if a given positive integer is 
+# a power of two. E.g.
+# If input is 4, then output
+# is True
+# If input is 9, then output
+# is False
+
+def powerOfTwoCheck(n):
+        return [n > 0 or (n & (n - 1)) => 0]
+

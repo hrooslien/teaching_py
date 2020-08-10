@@ -1,0 +1,13 @@
+# Imagine you have a list of numbers
+# and one number was randomly removed. 
+# Write a function that finds the 
+# missing number. 
+# For example, 
+# numMissing([1,2,3,4,5,7])
+# returns 6 
+# or 
+# numMissing([32,33,34,36])
+# returns 35
+
+def numMissing(numList):
+    return sum(numList[0],numList[-1]) - sum(numList)

@@ -1,0 +1,54 @@
+# code taken from MIT OpenCourseWare, adapted/destroyed by HJR
+class Spell:
+    def __init__(self, incantation, name):
+        self.name = name
+        self.incantation = incantation
+    def __str__(self):
+        return self.name + ' ' + self.incantation + '\n' + self.get_description()
+    def get_description(self):
+	pass
+    def execute(self):
+        print(self.incantation)
+        
+class Accio(Spell):
+    def __init__(self):
+        Spell.__init__(self, 'Accio', 'Summoning Charm')
+        
+class Confundo(Spell):
+    def __init__(self):
+        Spell.__init__(self, 'Confundo', 'Confundus Charm')
+    
+def study_spell(spell):
+       print(spell)
+
+
+
+# create a get_description method that returns a 
+# description of the spell. For example, the description
+# of Accio could be 'This charm summons an object to the 
+# caster, potentially over a significant distance'
+# and description of Confundo may be 'Causes the victim 
+# to become confused and befuddled.'
+# make sure that if a spell does not have a description,
+# that it returns 'no description'. 
+
+# Try to create sub-classes for the unforgivable
+# curses. Create a method that prints a warning
+# when a user wants to learn about them.
+
+# As a challenge, create one sub-class for the unforgivable
+# curses from which each curse can inherit descriptions
+# and methods. 
+
+# If you are a Potterhead then you can 
+# elaborate on this and create classes and sub-classes
+# based on which Hogwarts subject teaches what spell
+# (e.g. AWingardium Leviosa is taught in charms). 
+# You can also develop this to output subjects and 
+# spells depending on what school year in inputted. 
+# Make sure that your program can accept a 'year of 
+# study' parameter 
+
+
+
+

@@ -1,0 +1,21 @@
+# Write a program that counts the most
+# common words in the list words and prints 
+# them ranked and in a human readable form
+
+
+words = [
+   'red', 'green', 'black', 'pink', 'black', 'white', 'black', 'eyes',
+   'white', 'black', 'orange', 'Pink', 'pink', 'red', 'red', 'white', 'orange',
+   'white', "black", 'pink', 'green', 'green', 'pink', 'gReen', 'pink',
+   'white', 'orange', "orange", 'red', 'whIte', 'orange', "orange",
+   'red', 'green', 'black', 'pink', 'black', 'white', 'black', 'eyes',
+   'white', 'blck', '0range', 'Pink', 'pink', 'red', 'red', 'white', 'orange',
+   'white', "black", 'pink', 'green', 'pink', 'gReen', 'pink',
+   'white', "orange", 'red', 'whIte', 'orange', "black", 'pink', 
+   'green', 'green', 'pink', 'white', 'black', 'eyes', pink
+]
+
+print(top_four)
+
+
+

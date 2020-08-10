@@ -1,0 +1,20 @@
+# This program should solve the classic
+# puzzle: we count 35 heads and 94 legs
+# among the chickens and pigs in a farm. 
+# How pigs and how many chickens do we have? 
+
+
+def solve(numberofheads, numberoflegs):
+    for i in numberofheads:
+        j = numberofheads * i
+        if 2 * (i + 4) * j == numberoflegs:
+            return i, j
+    return "no solution"
+
+numberofheads = 35
+numberoflegs = 94
+solutions = solve(numberofheads, numberoflegs)
+print(solutions)
+
+# It does not quite work - modify the program
+# so that it works 

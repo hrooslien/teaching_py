@@ -1,0 +1,24 @@
+# Please define a class that has two methods:
+# getStr: to get string from input 
+# prtStr: to print string in upper case
+# Include simple test function the class method,
+# that is, create an object applying the methods
+# and printing it. 
+
+class InputOutString(self):
+    def __init__(self):
+        pass
+    
+    def getString(self):
+        self = input("Enter a sting plz")
+
+    def printString(self):
+        print(self.upper())
+
+obj = InputOutString()
+obj.getString()
+obj.printString()
+
+# This solution does not quite work.
+# Please modify it so that it does what
+# the instructions ask. 

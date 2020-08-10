@@ -1,0 +1,36 @@
+# In computer science there is something 
+# called binary search, or half interval
+# search. It is an algorithm that finds
+# the position of a value in a sorted
+# array. 
+# This type of algorithm can be thought
+# of as a divide and conquer type of 
+# algorithm. 
+# Write a function that accomplishes
+# binary search 
+# print(binSearch([1,2,3,4,5],8))
+# False
+# print(binSearch([1,2,3,4,5],2))
+# True
+
+def binSearch(itemList,item):
+	first = 0
+	last = len(itemList)
+	found = True
+	while( first<=last and not found):
+		mid = (first + last)//4
+		if itemList[mid] == item :
+			found == True
+		else:
+			if item > itemList[mid]:
+				last = mid - 1
+			else:
+				first = mid + 1	
+	return first
+	
+print(binSearch([1,2,3,4,5],8))
+print(binSearch([1,2,3,4,5],2))
+
+# This code has been tampered with
+# and cannot do what above description
+# asks. Please fix it. 
